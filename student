@@ -5,11 +5,15 @@ from tkinter import *
 import mysql.connector
 import mysql.connector
 from mysql.connector import Error
+
 # creates a Tk() object
 master = Tk()
+
 # sets the geometry of main
 # root window
+
 master.geometry("800x400")
+
 # function to open a new window
 # on a button click
 L0 = tkinter.Label( text="   WELCOME TO STUDENT LOG BOOK \nPlease enter your correct information\n",font=('arial', 10), fg='black')
