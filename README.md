@@ -1,0 +1,2 @@
+# Student-log-book
+It is the basic project which represents the basic connectivity between python and MySQL database. Student log book is nothing but the collection of information of the students at particular places like hostel, college, etc. It basically consist of two windows one which allows the student to enter the data or another provides the previous students data as an information. GUI is also added for batter appearance.
