@@ -5,28 +5,19 @@ from tkinter import *
 import mysql.connector
 import mysql.connector
 from mysql.connector import Error
-
-
-
 # creates a Tk() object
 master = Tk()
-
 # sets the geometry of main
- # root window
+# root window
 master.geometry("800x400")
-
-
 # function to open a new window
 # on a button click
-
 L0 = tkinter.Label( text="   WELCOME TO STUDENT LOG BOOK \nPlease enter your correct information\n",font=('arial', 10), fg='black')
 L0.grid(row=0, column=1)
 L1 = tkinter.Label(master, text="Name ", font=('arial', 20), fg='blue')
 L1.grid(row=2, column=0)
 E1 = tkinter.Entry(master, bd=5, width=50)
-E1.grid(row=2, column=1)
-
-L2 = tkinter.Label(master, text="age ", font=('arial', 20), fg='blue')
+E1.grid(row=2, column=1)L2 = tkinter.Label(master, text="age ", font=('arial', 20), fg='blue')
 L2.grid(row=3, column=0)
 E2 = tkinter.Entry(master, bd=5, width=50)
 E2.grid(row=3, column=1)
